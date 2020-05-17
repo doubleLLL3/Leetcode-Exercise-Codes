@@ -23,3 +23,4 @@ def reverse(x):
         return 0
 
 print(reverse(123))
+print(reverse(123))
