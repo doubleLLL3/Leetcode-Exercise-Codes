@@ -60,6 +60,17 @@ def strStr(haystack, needle):
         return -1
 
 
+        '''
+        奇特的方式，调用index
+        '''
+        # if needle in haystack:
+        #     return haystack.index(needle)
+        # else:
+        #     return -1
+        # 或者直接一行
+        # return haystack.find(needle)
+
+
 
 
 print(strStr("", ""))
