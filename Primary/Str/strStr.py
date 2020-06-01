@@ -33,7 +33,7 @@ def strStr(haystack, needle):
         2.遍历要匹配的主串
         '''
         if needle == '':
-            return 0
+            return 0 
         # PMT
         next = []
         next.append(-1)
@@ -63,6 +63,7 @@ def strStr(haystack, needle):
         '''
         奇特的方式，调用index
         '''
+        
         # if needle in haystack:
         #     return haystack.index(needle)
         # else:
